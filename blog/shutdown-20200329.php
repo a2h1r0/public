@@ -6,8 +6,6 @@ define('TOKEN', '引っ張ってきたやつ');
 define('ACCEPT_TEAM', 'デスクトップからログインして，URLのT00000の部分');
 define('ACCEPT_CHANNEL', 'デスクトップからログインして，URLのC00000の部分');
 
-define('PATH_DEPLOY', '/tmp/deploy');
-
 // データが送られてきたことを確認
 if (isset($_POST) and !empty($_POST)) {
   // 送信元チェック
